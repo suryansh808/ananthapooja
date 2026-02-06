@@ -39,15 +39,15 @@ const PoojaDetailPage = () => {
               </div>
                     </div>
                 </div>
-                <div className="overflow-hidden rounded-2xl bg-red-800 h-90">
-                   <img src={selectedPooja.image} alt="selected pooja image" className=" rounded-2xl hover:scale-110 duration-300 transition-all " />
+                <div className="overflow-hidden rounded-2xl h-100">
+                   <img src={selectedPooja.image} alt="selected pooja image" className=" rounded-2xl h-full w-full object-cover hover:scale-110 duration-300 transition-all " />
                 </div>
              </div>
 
             {/* PACKAGES */}
             {selectedPooja.packages ? (
-              <div className="mb-10">
-                <h3 className="text-2xl font-bold text-orange-950 mb-6">
+              <div className="my-5">
+                <h3 className="text-xl font-bold text-orange-950 mb-6">
                   Available Ritual Packages
                 </h3>
 
